@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 import matplotlib.pyplot as plt
 from model_func import LogisticRegression, SVM
-from preprocess import Preprocessor
+from webapp.preprocess import Preprocessor
 
 st.set_page_config(layout="wide")
 st.title("3. Train Bot Detection Model")

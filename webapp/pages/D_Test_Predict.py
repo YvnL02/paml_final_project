@@ -4,7 +4,7 @@ import streamlit as st
 import joblib
 from sklearn.metrics import accuracy_score
 from model_func import LogisticRegression, SVM
-from preprocess import Preprocessor
+from webapp.preprocess import Preprocessor
 
 st.set_page_config(layout="wide")
 st.title("4. Bot vs Human Predictor")
