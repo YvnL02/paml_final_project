@@ -2,7 +2,10 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 import joblib
-from sklearn.metrics import accuracy_score
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+
 from model_func import LogisticRegression, SVM
 from webapp.preprocess import Preprocessor
 
