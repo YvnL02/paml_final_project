@@ -4,7 +4,6 @@
 
 This project implements an SVM-based classifier from scratch to detect bot accounts on VK.com. It features a fully functional  web app for data exploration, model training, and prediction.
 
----
 
 ## Project Structure
 
@@ -30,7 +29,6 @@ Jupyter Notebook and dataset:
 
 ```
 
----
 
 How to run the code
 
