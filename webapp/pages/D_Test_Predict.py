@@ -79,5 +79,9 @@ if submitted:
     y_all_pred = model.predict(X_all, W, b)
     accuracy = np.mean(y_all_pred == y_true)
 
+    margin = float(np.dot(user_features.to_numpy(), W) + b)
+    confidence = abs(margin)
+
     st.success(f"Prediction Result: **{result}**")
-    st.info(f"Model accuracy on full dataset: **{accuracy:.2%}**")
+    st.info(f"Confidence: **{confidence:.4f}**")
+
