@@ -6,7 +6,7 @@ This project implements an SVM-based classifier from scratch to detect bot accou
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Streamlit web application files:
