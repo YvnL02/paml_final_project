@@ -23,7 +23,7 @@ webapp/
 ├── top_features.pkl                 # Feature importance data
 ├── trained_model.pkl                # Serialized trained SVM model
 
-
+Jupyter Notebook and dataset:
 ├── bots_vs_users.csv                # Original dataset
 ├── code.ipynb                       # Development notebook for experimentation
 ├── requirements.txt                 # Python dependencies
