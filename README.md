@@ -26,6 +26,7 @@ Jupyter Notebook and dataset:
 ├── bots_vs_users.csv                # Original dataset
 ├── code.ipynb                       # Development notebook for experimentation
 ├── requirements.txt                 # Python dependencies
+├── model_func.py                    # Function of models
 
 ```
 
